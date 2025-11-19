@@ -1,0 +1,24 @@
+{
+  "name": "gerendaohangye",
+  "compatibility_date": "2025-01-01",
+  "main": "dist/navihive/index.js",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    // 认证配置
+    "AUTH_ENABLED": "true",
+    "AUTH_REQUIRED_FOR_READ": "false",
+    "AUTH_USERNAME": "yilitongqi",
+    "AUTH_PASSWORD": "1256775964panqi",
+    "AUTH_SECRET": "gerendaohang-panqi-yilitonqi-2025"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "navihive-test-db",
+      "database_id": "645c3041-6893-4aa6-840b-87b55e641ba1"
+    }
+  ]
+}
